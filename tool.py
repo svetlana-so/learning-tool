@@ -8,6 +8,5 @@ class QuestionsList:
         return self._file_name
     @file_name.setter
     def file_name(self, new_file_name):
-        self._file_name = new_file_name    
-    
+        self._file_name = new_file_name      
     
