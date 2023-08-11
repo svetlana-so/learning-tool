@@ -157,10 +157,7 @@ class Quiz:
                 writer.writerow(header)
                 writer.writerows(rows)
 
-            # Normalize weights
-            #total_weights = question_weights.sum()
-            #question_weights /= total_weights
-
+            
             if user_answer.lower() == quit_command:
                 break
 
