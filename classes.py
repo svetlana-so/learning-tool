@@ -242,8 +242,7 @@ class Quiz:
         os.system('clear' if os.name == 'posix' else 'cls')
 
 
-
-
+#https://github.com/svetlana-so/card-game-war
 
 
 
